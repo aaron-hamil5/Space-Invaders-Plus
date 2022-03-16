@@ -13,5 +13,46 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{6aadb21e-a35f-40d2-89f7-80ac20f9c962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FileIO">
+      <UniqueIdentifier>{dde09bf5-fad3-42ed-9474-6afe21c5634d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject">
+      <UniqueIdentifier>{6da9962b-b6d5-483b-8685-727d18973da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens">
+      <UniqueIdentifier>{b5262384-f226-4da6-b401-419767ed664c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\Select">
+      <UniqueIdentifier>{5ab828d5-74f4-43b8-a454-2ad0e456200a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\Game">
+      <UniqueIdentifier>{fad8b16e-a677-4b86-8e36-d6a72e119bae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{13ba25fe-c3c6-4caa-852c-01770776bfbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FileIO">
+      <UniqueIdentifier>{9fa2ba0a-78a8-47c8-9887-b2dfa5d3cfdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject">
+      <UniqueIdentifier>{edd68cf6-219e-4d99-939f-b31f82b4cf07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screens">
+      <UniqueIdentifier>{c7f54982-b01d-4d4d-95ac-8ae962f6031e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screens\Game">
+      <UniqueIdentifier>{d37bd3fd-04ff-42ed-9b45-0c293218f14b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screens\Select">
+      <UniqueIdentifier>{1aaff73d-8cd1-4c4f-ac04-7e6fba94feec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Space Invaders Plus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

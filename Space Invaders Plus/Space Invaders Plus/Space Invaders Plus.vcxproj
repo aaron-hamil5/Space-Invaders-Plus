@@ -145,11 +145,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GameEngine.cpp" />
     <ClCompile Include="Space Invaders Plus.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DevelopState.h" />
     <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="ScreenManager.h" />
+    <ClInclude Include="SoundEngine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

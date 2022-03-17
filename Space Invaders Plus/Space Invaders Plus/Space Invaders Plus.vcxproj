@@ -146,6 +146,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="SoundEngine.cpp" />
     <ClCompile Include="Space Invaders Plus.cpp" />
   </ItemGroup>
   <ItemGroup>

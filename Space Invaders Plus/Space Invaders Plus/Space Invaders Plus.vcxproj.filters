@@ -63,6 +63,18 @@
     <ClInclude Include="SoundEngine.h">
       <Filter>Header Files\Engine</Filter>
     </ClInclude>
+    <ClInclude Include="ScreenManagerRemoteControl.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapStore.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Space Invaders Plus.cpp">

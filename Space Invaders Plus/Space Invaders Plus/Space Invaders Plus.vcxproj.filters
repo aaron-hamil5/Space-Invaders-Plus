@@ -49,6 +49,12 @@
     <Filter Include="Source Files\Screens\Select">
       <UniqueIdentifier>{1aaff73d-8cd1-4c4f-ac04-7e6fba94feec}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Engine\Screen">
+      <UniqueIdentifier>{f00b4fbd-5fb0-4979-90b3-3e2e14a67885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\GameObject">
+      <UniqueIdentifier>{6688aacd-8eeb-4352-adde-174975afe55b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DevelopState.h">
@@ -57,16 +63,7 @@
     <ClInclude Include="GameEngine.h">
       <Filter>Header Files\Engine</Filter>
     </ClInclude>
-    <ClInclude Include="ScreenManager.h">
-      <Filter>Header Files\Engine</Filter>
-    </ClInclude>
     <ClInclude Include="SoundEngine.h">
-      <Filter>Header Files\Engine</Filter>
-    </ClInclude>
-    <ClInclude Include="ScreenManagerRemoteControl.h">
-      <Filter>Header Files\Engine</Filter>
-    </ClInclude>
-    <ClInclude Include="Screen.h">
       <Filter>Header Files\Engine</Filter>
     </ClInclude>
     <ClInclude Include="LevelManager.h">
@@ -74,6 +71,21 @@
     </ClInclude>
     <ClInclude Include="BitmapStore.h">
       <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files\Engine\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>Header Files\Engine\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManagerRemoteControl.h">
+      <Filter>Header Files\Engine\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectSharer.h">
+      <Filter>Header Files\Engine\GameObject</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

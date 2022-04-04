@@ -28,6 +28,7 @@ void Screen::draw(RenderWindow& window){
 
 	for (itr; itr != end; ++itr)
 	{
+		//TODO: Ask about error
 		(*itr)->draw(window);
 	}
 }

@@ -148,6 +148,7 @@
     <ClCompile Include="BitmapStore.cpp" />
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="ImputHandler.cpp" />
     <ClCompile Include="SoundEngine.cpp" />
     <ClCompile Include="Space Invaders Plus.cpp" />
     <ClCompile Include="UIPanel.cpp" />
@@ -159,6 +160,7 @@
     <ClInclude Include="GameEngine.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="GameObjectSharer.h" />
+    <ClInclude Include="InputHandler.h" />
     <ClInclude Include="LevelManager.h" />
     <ClInclude Include="Screen.h" />
     <ClInclude Include="ScreenManager.h" />

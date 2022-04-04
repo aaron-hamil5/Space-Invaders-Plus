@@ -93,6 +93,9 @@
     <ClInclude Include="UIPanel.h">
       <Filter>Header Files\Engine\Screen</Filter>
     </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Header Files\Engine\Screen</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Space Invaders Plus.cpp">
@@ -111,6 +114,9 @@
       <Filter>Source Files\Screens</Filter>
     </ClCompile>
     <ClCompile Include="UIPanel.cpp">
+      <Filter>Source Files\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="ImputHandler.cpp">
       <Filter>Source Files\Screens</Filter>
     </ClCompile>
   </ItemGroup>

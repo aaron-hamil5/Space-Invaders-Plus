@@ -149,6 +149,7 @@
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="GameEngine.cpp" />
     <ClCompile Include="ImputHandler.cpp" />
+    <ClCompile Include="Screen.cpp" />
     <ClCompile Include="SoundEngine.cpp" />
     <ClCompile Include="Space Invaders Plus.cpp" />
     <ClCompile Include="UIPanel.cpp" />

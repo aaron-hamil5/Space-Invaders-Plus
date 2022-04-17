@@ -140,5 +140,8 @@
     <ClCompile Include="SelectInputHandler.cpp">
       <Filter>Source Files\Screens\Select</Filter>
     </ClCompile>
+    <ClCompile Include="SelectUIPanel.cpp">
+      <Filter>Source Files\Screens\Select</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

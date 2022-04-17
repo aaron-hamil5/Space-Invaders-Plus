@@ -26,7 +26,7 @@ public:
 	UIPanel(Vector2i res, int x, int y, float width, float height, int alpha, int red, int green, int blue);
 	std::vector<std::shared_ptr<Button>> getButtons();
 
-	virtual void draw(RenderWindow);
+	virtual void draw(RenderWindow& window);
 	void show();
 	void hide();
 };

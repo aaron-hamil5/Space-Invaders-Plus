@@ -137,5 +137,8 @@
     <ClCompile Include="SelectScreen.cpp">
       <Filter>Source Files\Screens\Select</Filter>
     </ClCompile>
+    <ClCompile Include="SelectInputHandler.cpp">
+      <Filter>Source Files\Screens\Select</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

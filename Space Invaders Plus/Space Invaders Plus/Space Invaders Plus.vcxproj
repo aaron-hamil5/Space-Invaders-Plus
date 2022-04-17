@@ -150,6 +150,7 @@
     <ClCompile Include="GameEngine.cpp" />
     <ClCompile Include="ImputHandler.cpp" />
     <ClCompile Include="Screen.cpp" />
+    <ClCompile Include="SelectInputHandler.cpp" />
     <ClCompile Include="SelectScreen.cpp" />
     <ClCompile Include="SoundEngine.cpp" />
     <ClCompile Include="Space Invaders Plus.cpp" />

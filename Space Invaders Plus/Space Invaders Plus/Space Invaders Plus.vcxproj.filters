@@ -108,6 +108,9 @@
     <ClInclude Include="SelectInputHandler.h">
       <Filter>Header Files\Screens\Select</Filter>
     </ClInclude>
+    <ClInclude Include="GameScreen.h">
+      <Filter>Header Files\Screens\Game</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Space Invaders Plus.cpp">
@@ -142,6 +145,9 @@
     </ClCompile>
     <ClCompile Include="SelectUIPanel.cpp">
       <Filter>Source Files\Screens\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreen.cpp">
+      <Filter>Source Files\Screens\Game</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

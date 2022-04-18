@@ -148,6 +148,7 @@
     <ClCompile Include="BitmapStore.cpp" />
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="GameScreen.cpp" />
     <ClCompile Include="ImputHandler.cpp" />
     <ClCompile Include="Screen.cpp" />
     <ClCompile Include="SelectInputHandler.cpp" />
@@ -164,6 +165,7 @@
     <ClInclude Include="GameEngine.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="GameObjectSharer.h" />
+    <ClInclude Include="GameScreen.h" />
     <ClInclude Include="InputHandler.h" />
     <ClInclude Include="LevelManager.h" />
     <ClInclude Include="Screen.h" />

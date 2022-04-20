@@ -8,7 +8,7 @@ class GameScreen;
 class GameInputHandler : public InputHandler
 {
 public:
-	void initiialize();
+	void initialize();
 	void handleGamepad() override;
 	void handleKeyPressed(Event& ev, RenderWindow& window) override;
 	void handleKeyReleased(Event& ev, RenderWindow& window) override;

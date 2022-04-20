@@ -2,7 +2,7 @@
 #include "SoundEngine.h";
 #include "GameScreen.h"
 
-void GameInputHandler::initiialize()
+void GameInputHandler::initialize()
 {
 	
 }

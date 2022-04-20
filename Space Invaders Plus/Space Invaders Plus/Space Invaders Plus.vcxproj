@@ -150,15 +150,17 @@
     <ClCompile Include="GameEngine.cpp" />
     <ClCompile Include="GameInputHandler.cpp" />
     <ClCompile Include="GameOverInputHandler.cpp" />
+    <ClCompile Include="GameOverUIPanel.cpp" />
     <ClCompile Include="GameScreen.cpp" />
     <ClCompile Include="GameUIPanel.cpp" />
     <ClCompile Include="ImputHandler.cpp" />
     <ClCompile Include="Screen.cpp" />
+    <ClCompile Include="ScreenManager.cpp" />
     <ClCompile Include="SelectInputHandler.cpp" />
     <ClCompile Include="SelectScreen.cpp" />
     <ClCompile Include="SelectUIPanel.cpp" />
     <ClCompile Include="SoundEngine.cpp" />
-    <ClCompile Include="Space Invaders Plus.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="UIPanel.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -170,6 +172,7 @@
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="GameObjectSharer.h" />
     <ClInclude Include="GameOverInputHandler.h" />
+    <ClInclude Include="GameOverUIPanel.h" />
     <ClInclude Include="GameScreen.h" />
     <ClInclude Include="GameUIPanel.h" />
     <ClInclude Include="InputHandler.h" />

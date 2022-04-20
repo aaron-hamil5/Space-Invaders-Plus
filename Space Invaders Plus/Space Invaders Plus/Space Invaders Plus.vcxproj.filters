@@ -120,9 +120,12 @@
     <ClInclude Include="GameOverInputHandler.h">
       <Filter>Header Files\Screens\Game</Filter>
     </ClInclude>
+    <ClInclude Include="GameOverUIPanel.h">
+      <Filter>Header Files\Screens\Game</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Space Invaders Plus.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GameEngine.cpp">
@@ -166,6 +169,12 @@
     </ClCompile>
     <ClCompile Include="GameOverInputHandler.cpp">
       <Filter>Source Files\Screens\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverUIPanel.cpp">
+      <Filter>Source Files\Screens\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>Source Files\Engine</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

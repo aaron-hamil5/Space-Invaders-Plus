@@ -1,5 +1,5 @@
-#ifndef SelectUIPanel_H;
-#define SelectUIPanel_H;
+#ifndef SelectUIPanel_H
+#define SelectUIPanel_H
 
 #include "UIPanel.h"
 
@@ -12,4 +12,4 @@ public:
 	void virtual draw(RenderWindow& window);
 };
 
-#endif SelectUIPanel_H;
+#endif SelectUIPanel_H

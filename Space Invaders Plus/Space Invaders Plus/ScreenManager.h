@@ -8,6 +8,9 @@
 #include "ScreenManagerRemoteControl.h"
 #include "LevelManager.h"
 #include "BitmapStore.h"
+#include "Screen.h"
+#include "SelectScreen.h"
+#include "GameScreen.h"
 
 using namespace sf;
 

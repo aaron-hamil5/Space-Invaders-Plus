@@ -1,5 +1,5 @@
-#ifndef SelectInputHandler_H;
-#define SelectInputHandler_H;
+#ifndef SelectInputHandler_H
+#define SelectInputHandler_H
 
 #include "InputHandler.h"
 
@@ -9,4 +9,4 @@ class SelectInputHandler : public InputHandler
 	void handleLeftClick(std::string& buttonInteractedWith, RenderWindow& window) override;
 };
 
-#endif SelectInputHandler_H;
+#endif SelectInputHandler_H

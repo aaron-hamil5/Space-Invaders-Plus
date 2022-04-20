@@ -25,13 +25,13 @@ void UIPanel::addButton(float x, float y, int width, int height, int red, int gr
 	m_Buttons.push_back(std::make_shared<Button>(Vector2f(x, y), width, height, red, green, blue, label));
 }
 
-void UIPanel::draw(RenderWindow window)
+void UIPanel::draw(RenderWindow& window)
 {
 	window.setView(m_View);
 	if (!m_Hidden)
 	{
 		window.draw(m_UIPanel);
-		for (auto it = m_Buttons.begin(); it != m_Buttons.end(); it++)
+		for (auto it = m_Buttons.begin(); it != m_Buttons.end(); ++it)
 		{
 			(*it) -> draw(window);
 		}

@@ -149,6 +149,7 @@
     <ClCompile Include="Button.cpp" />
     <ClCompile Include="GameEngine.cpp" />
     <ClCompile Include="GameInputHandler.cpp" />
+    <ClCompile Include="GameOverInputHandler.cpp" />
     <ClCompile Include="GameScreen.cpp" />
     <ClCompile Include="GameUIPanel.cpp" />
     <ClCompile Include="ImputHandler.cpp" />
@@ -168,6 +169,7 @@
     <ClInclude Include="GameInputHandler.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="GameObjectSharer.h" />
+    <ClInclude Include="GameOverInputHandler.h" />
     <ClInclude Include="GameScreen.h" />
     <ClInclude Include="GameUIPanel.h" />
     <ClInclude Include="InputHandler.h" />

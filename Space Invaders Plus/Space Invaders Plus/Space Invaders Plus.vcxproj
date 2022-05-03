@@ -156,6 +156,7 @@
     <ClCompile Include="GameScreen.cpp" />
     <ClCompile Include="GameUIPanel.cpp" />
     <ClCompile Include="ImputHandler.cpp" />
+    <ClCompile Include="RectColliderComponent.cpp" />
     <ClCompile Include="Screen.cpp" />
     <ClCompile Include="ScreenManager.cpp" />
     <ClCompile Include="SelectInputHandler.cpp" />
@@ -181,6 +182,7 @@
     <ClInclude Include="GameUIPanel.h" />
     <ClInclude Include="InputHandler.h" />
     <ClInclude Include="LevelManager.h" />
+    <ClInclude Include="RectColliderComponent.h" />
     <ClInclude Include="Screen.h" />
     <ClInclude Include="ScreenManager.h" />
     <ClInclude Include="ScreenManagerRemoteControl.h" />

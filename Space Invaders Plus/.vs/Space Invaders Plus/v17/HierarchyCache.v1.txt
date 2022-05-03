@@ -3,9 +3,9 @@ i:{00000000-0000-0000-0000-000000000000}:Space Invaders Plus.sln
 ++Space Invaders Plus
 i:{00000000-0000-0000-0000-000000000000}:Space Invaders Plus
 ++References
-i:{e9129070-ca68-4231-88fc-a780517862b6}:{6F4A6111-E174-45BF-8601-6DDF9CA4D03D}
+i:{e9129070-ca68-4231-88fc-a780517862b6}:{C18B8B0A-DB67-4D90-9227-3707BD0BBB61}
 ++External Dependencies
-i:{e9129070-ca68-4231-88fc-a780517862b6}:{1EE2823C-A16B-4989-921C-03CFC253BBE2}
+i:{e9129070-ca68-4231-88fc-a780517862b6}:{57910829-A988-4DED-9AC9-99001E7E2940}
 ++Header Files
 i:{e9129070-ca68-4231-88fc-a780517862b6}:Header Files
 ++Engine
@@ -15,18 +15,12 @@ i:{e9129070-ca68-4231-88fc-a780517862b6}:Source Files\Engine
 i:{e9129070-ca68-4231-88fc-a780517862b6}:Header Files\Engine\GameObject
 i:{e9129070-ca68-4231-88fc-a780517862b6}:Header Files\GameObject
 i:{e9129070-ca68-4231-88fc-a780517862b6}:Source Files\GameObject
+++GameObject.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameObject.h
+++GameObjectSharer.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameObjectSharer.h
 ++Screen
 i:{e9129070-ca68-4231-88fc-a780517862b6}:Header Files\Engine\Screen
-++InputHandler.h
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\InputHandler.h
-++Screen.h
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\Screen.h
-++ScreenManager.h
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\ScreenManager.h
-++ScreenManagerRemoteControl.h
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\ScreenManagerRemoteControl.h
-++UIPanel.h
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\UIPanel.h
 ++BitmapStore.h
 i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\BitmapStore.h
 ++DevelopState.h
@@ -42,69 +36,47 @@ i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-I
 ++FileIO
 i:{e9129070-ca68-4231-88fc-a780517862b6}:Header Files\FileIO
 i:{e9129070-ca68-4231-88fc-a780517862b6}:Source Files\FileIO
+++BulletUpdateComponent.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\BulletUpdateComponent.h
+++ColliderComponent.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\ColliderComponent.h
+++Component.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\Component.h
+++GraphicsComponent.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GraphicsComponent.h
+++InvaderUpdateComponent.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\InvaderUpdateComponent.h
+++RectColliderComponent.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\RectColliderComponent.h
+++StandardGraphicsComponent.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\StandardGraphicsComponent.h
+++TransformComponent.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\TransformComponent.h
+++UpdateComponent.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\UpdateComponent.h
 ++Screens
 i:{e9129070-ca68-4231-88fc-a780517862b6}:Header Files\Screens
 i:{e9129070-ca68-4231-88fc-a780517862b6}:Source Files\Screens
-++Game
-i:{e9129070-ca68-4231-88fc-a780517862b6}:Header Files\Screens\Game
-i:{e9129070-ca68-4231-88fc-a780517862b6}:Source Files\Screens\Game
-++GameInputHandler.h
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameInputHandler.h
-++GameOverInputHandler.h
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameOverInputHandler.h
-++GameOverUIPanel.h
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameOverUIPanel.h
-++GameScreen.h
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameScreen.h
-++GameUIPanel.h
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameUIPanel.h
-++Select
-i:{e9129070-ca68-4231-88fc-a780517862b6}:Header Files\Screens\Select
-i:{e9129070-ca68-4231-88fc-a780517862b6}:Source Files\Screens\Select
-++SelectInputHandler.h
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\SelectInputHandler.h
-++SelectScreen.h
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\SelectScreen.h
-++SelectUIPanel.h
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\SelectUIPanel.h
-++Button.h
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\Button.h
 ++Resource Files
 i:{e9129070-ca68-4231-88fc-a780517862b6}:Resource Files
 ++Source Files
 i:{e9129070-ca68-4231-88fc-a780517862b6}:Source Files
-++BitmapStore.cpp
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\BitmapStore.cpp
-++GameEngine.cpp
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameEngine.cpp
-++ScreenManager.cpp
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\ScreenManager.cpp
-++SoundEngine.cpp
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\SoundEngine.cpp
-++GameInputHandler.cpp
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameInputHandler.cpp
-++GameOverInputHandler.cpp
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameOverInputHandler.cpp
-++GameOverUIPanel.cpp
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameOverUIPanel.cpp
-++GameScreen.cpp
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameScreen.cpp
-++GameUIPanel.cpp
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameUIPanel.cpp
-++SelectInputHandler.cpp
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\SelectInputHandler.cpp
-++SelectScreen.cpp
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\SelectScreen.cpp
-++SelectUIPanel.cpp
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\SelectUIPanel.cpp
-++Button.cpp
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\Button.cpp
-++ImputHandler.cpp
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\ImputHandler.cpp
-++Screen.cpp
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\Screen.cpp
-++UIPanel.cpp
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\UIPanel.cpp
+++BulletUpdate.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\BulletUpdate.cpp
+++ColliderComponent.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\ColliderComponent.cpp
+++Component.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\Component.cpp
+++GraphicsComponent.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GraphicsComponent.cpp
+++RectColliderComponent.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\RectColliderComponent.cpp
+++StandardGraphicsComponent.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\StandardGraphicsComponent.cpp
+++TransformComponent.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\TransformComponent.cpp
+++UpdateComponent.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\UpdateComponent.cpp
 ++main.cpp
 i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\main.cpp
 ++__msvc_system_error_abi.hpp
@@ -577,7 +549,71 @@ e:{e9129070-ca68-4231-88fc-a780517862b6}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDI
 e:{e9129070-ca68-4231-88fc-a780517862b6}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\YVALS_CORE.H
 ++zmmintrin.h
 e:{e9129070-ca68-4231-88fc-a780517862b6}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.31.31103\INCLUDE\ZMMINTRIN.H
-++GameObject.h
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameObject.h
-++GameObjectSharer.h
-i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameObjectSharer.h
+++InputHandler.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\InputHandler.h
+++Screen.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\Screen.h
+++ScreenManager.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\ScreenManager.h
+++ScreenManagerRemoteControl.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\ScreenManagerRemoteControl.h
+++UIPanel.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\UIPanel.h
+++Game
+i:{e9129070-ca68-4231-88fc-a780517862b6}:Header Files\Screens\Game
+i:{e9129070-ca68-4231-88fc-a780517862b6}:Source Files\Screens\Game
+++Select
+i:{e9129070-ca68-4231-88fc-a780517862b6}:Header Files\Screens\Select
+i:{e9129070-ca68-4231-88fc-a780517862b6}:Source Files\Screens\Select
+++Button.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\Button.h
+++BitmapStore.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\BitmapStore.cpp
+++GameEngine.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameEngine.cpp
+++ScreenManager.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\ScreenManager.cpp
+++SoundEngine.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\SoundEngine.cpp
+++Button.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\Button.cpp
+++ImputHandler.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\ImputHandler.cpp
+++Screen.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\Screen.cpp
+++UIPanel.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\UIPanel.cpp
+++GameInputHandler.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameInputHandler.h
+++GameOverInputHandler.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameOverInputHandler.h
+++GameOverUIPanel.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameOverUIPanel.h
+++GameScreen.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameScreen.h
+++GameUIPanel.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameUIPanel.h
+++SelectInputHandler.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\SelectInputHandler.h
+++SelectScreen.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\SelectScreen.h
+++SelectUIPanel.h
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\SelectUIPanel.h
+++GameInputHandler.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameInputHandler.cpp
+++GameOverInputHandler.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameOverInputHandler.cpp
+++GameOverUIPanel.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameOverUIPanel.cpp
+++GameScreen.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameScreen.cpp
+++GameUIPanel.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\GameUIPanel.cpp
+++SelectInputHandler.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\SelectInputHandler.cpp
+++SelectScreen.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\SelectScreen.cpp
+++SelectUIPanel.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\SelectUIPanel.cpp
+++InvaderUpdate.cpp
+i:{e9129070-ca68-4231-88fc-a780517862b6}:C:\Users\aaron\Documents\GitHub\Space-Invaders-Plus\Space Invaders Plus\Space Invaders Plus\InvaderUpdate.cpp

@@ -150,6 +150,9 @@
     <ClInclude Include="InvaderUpdateComponent.h">
       <Filter>Header Files\GameObject</Filter>
     </ClInclude>
+    <ClInclude Include="PlayerUpdateComponent.h">
+      <Filter>Header Files\GameObject</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -228,6 +231,9 @@
       <Filter>Source Files\GameObject</Filter>
     </ClCompile>
     <ClCompile Include="InvaderUpdate.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerUpdate.cpp">
       <Filter>Source Files\GameObject</Filter>
     </ClCompile>
   </ItemGroup>

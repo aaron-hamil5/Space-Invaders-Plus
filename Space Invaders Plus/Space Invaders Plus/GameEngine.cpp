@@ -5,21 +5,21 @@ GameEngine::GameEngine()
 	m_Resolution.x = VideoMode::getDesktopMode().width;
 	m_Resolution.y = VideoMode::getDesktopMode().height;
 
-	m_Window.create(VideoMode(m_Resolution.x, m_Resolution.y), "Space Invaders Plus", Style::Fullscreen);
+	m_Window.create(VideoMode(m_Resolution.x, m_Resolution.y), "Space Invaders Plus!", Style::Fullscreen);
+
 	m_ScreenManager = unique_ptr<ScreenManager>(new ScreenManager(Vector2i(m_Resolution.x, m_Resolution.y)));
 }
-
-void GameEngine::run()
-{
-	while (m_Window.isOpen()) {
-		m_DT = m_Clock.restart();
-		m_FPS = m_DT.asSeconds();
-
-		handleInput();
-		update();
-		draw();
-	}
-}
+ void GameEngine::run()
+ {
+	 while(m_Window.isOpen())
+	 {
+		 m_DT = m_Clock.restart();
+		 m_FPS = m_DT.asSeconds();
+		 handleInput();
+		 update();
+		 draw();
+	 }
+ }
 
 void GameEngine::handleInput()
 {

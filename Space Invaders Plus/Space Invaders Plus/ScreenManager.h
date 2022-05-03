@@ -1,35 +1,61 @@
-#ifndef ScreenManager_H
-#define ScreenManager_H
-
-#include <iostream>
-#include <map>
+#pragma once
 #include <SFML/Graphics.hpp>
-
-#include "ScreenManagerRemoteControl.h"
-#include "LevelManager.h"
-#include "BitmapStore.h"
-#include "Screen.h"
-#include "SelectScreen.h"
+#include <map>
 #include "GameScreen.h"
+#include "ScreenManagerRemoteControl.h"
+#include "SelectScreen.h"
+//#include "LevelManager.h"
+#include "BitmapStore.h"
+#include <iostream>
 
 using namespace sf;
+using namespace std;
 
 class ScreenManager : public ScreenManagerRemoteControl {
 private:
-	std::map <std::string, unique_ptr<Screen>> m_Screens;
-	LevelManager m_LevelManager;
+	map <string, unique_ptr<Screen>> m_Screens;
+	//LevelManager m_LevelManager;
+
 protected:
-	std::string m_CurrentScreen = "Select";
+	string m_CurrentScreen = "Select";
+
 public:
 	BitmapStore m_BS;
+
 	ScreenManager(Vector2i res);
-
-	void handleInput(RenderWindow& window);
-	void update(float FPS);
+	void update(float fps);
 	void draw(RenderWindow& window);
+	void handleInput(RenderWindow& window);
 
-	//TODO (1): Code continues after defining ScreenManagerRemoteControl class
-	// level Manager and gameSharer Classes
+	/****************************************************
+	*****************************************************
+	From ScreenManagerRemoteControl interface
+	*****************************************************
+	*****************************************************/
+	void ScreenManagerRemoteControl::
+		SwitchScreen(string screenToSwitchTo)
+	{
+		m_CurrentScreen = "" + screenToSwitchTo;
+		m_Screens[m_CurrentScreen]->initialise();
+	}
+
+	void ScreenManagerRemoteControl::
+		loadLevelInPlayMode(string screenToLoad)
+	{
+		//m_LevelManager.getGameObjects().clear();
+		//m_LevelManager.
+			//loadGameObjectsForPlayMode(screenToLoad);
+		SwitchScreen("Game");
+	}
+
+	//vector<GameObject>& 
+		//ScreenManagerRemoteControl::getGameObjects()
+	//{
+		//return m_LevelManager.getGameObjects();
+	//}
+
+	//GameObjectSharer& shareGameObjectSharer()
+	//{
+		//return m_LevelManager;
+	//}
 };
-
-#endif ScreenManager_H

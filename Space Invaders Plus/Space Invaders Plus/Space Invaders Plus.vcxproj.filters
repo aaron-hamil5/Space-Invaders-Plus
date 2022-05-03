@@ -144,6 +144,9 @@
     <ClInclude Include="UpdateComponent.h">
       <Filter>Header Files\GameObject</Filter>
     </ClInclude>
+    <ClInclude Include="BulletUpdateComponent.h">
+      <Filter>Header Files\GameObject</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -216,6 +219,9 @@
       <Filter>Source Files\GameObject</Filter>
     </ClCompile>
     <ClCompile Include="UpdateComponent.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletUpdate.cpp">
       <Filter>Source Files\GameObject</Filter>
     </ClCompile>
   </ItemGroup>

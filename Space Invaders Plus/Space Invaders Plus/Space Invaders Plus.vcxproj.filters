@@ -55,6 +55,9 @@
     <Filter Include="Header Files\Engine\GameObject">
       <UniqueIdentifier>{6688aacd-8eeb-4352-adde-174975afe55b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Documentation">
+      <UniqueIdentifier>{b785a693-6e0f-484d-a15e-5655cb68e2bf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DevelopState.h">
@@ -236,5 +239,10 @@
     <ClCompile Include="PlayerUpdate.cpp">
       <Filter>Source Files\GameObject</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SpaceInvadersPlusClassDiagram.cd">
+      <Filter>Documentation</Filter>
+    </None>
   </ItemGroup>
 </Project>

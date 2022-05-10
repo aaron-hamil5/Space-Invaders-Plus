@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BitmapStore">
+    <Position X="31.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAEAAAAAAAAAAAIAIAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BitmapStore.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DevelopState">
+    <Position X="31.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DevelopState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameEngine">
+    <Position X="33.25" Y="6.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>KIAAAgABgAAAAAAAAAIAAAAgAAAAAAEABAAAAAAEAAI=</HashCode>
+      <FileName>GameEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelManager">
+    <Position X="31.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LevelManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundEngine">
+    <Position X="33.25" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAEAAIgAAAAAAAIAMAAAREAAAAAAQAAAIBAE=</HashCode>
+      <FileName>SoundEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldState">
+    <Position X="37" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAIAAAAEAAAABAAAAAAAgAAAgAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>WorldState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputHandler">
+    <Position X="1" Y="10.5" Width="8.5" />
+    <TypeIdentifier>
+      <HashCode>AIAEAAAAAIFAAAIAACAAABAAAIAAEAAAAgAAAIAAAAA=</HashCode>
+      <FileName>InputHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Screen">
+    <Position X="26" Y="8.25" Width="6.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAgAAAAAAAAAMAAAAAAAAAAAAAAAAAABAECCA=</HashCode>
+      <FileName>Screen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenManager">
+    <Position X="21.75" Y="11.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AIAEAAAAAABAAAAAAAIAAAAAEAAAAAAACAAAAAAEAAA=</HashCode>
+      <FileName>ScreenManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenManagerRemoteControl">
+    <Position X="21.75" Y="9" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAggAAAAgAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScreenManagerRemoteControl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIPanel">
+    <Position X="3.5" Y="6.25" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAQIAAAAoAAAAIAAFAAEACAAAEAhAAAABAAAAA=</HashCode>
+      <FileName>UIPanel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject">
+    <Position X="31.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObjectSharer">
+    <Position X="31.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjectSharer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletUpdateComponent">
+    <Position X="18" Y="5.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AABBAAAAgAAAAQAEAAAAAAEAABBAAgAEAQCIAAIEAAA=</HashCode>
+      <FileName>BulletUpdateComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColliderComponent">
+    <Position X="5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ColliderComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Component">
+    <Position X="7.75" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAEAgAACAAAAAAQAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Component.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicsComponent">
+    <Position X="11.5" Y="3.25" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAIAAAAAAAABAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>GraphicsComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvaderUpdateComponent">
+    <Position X="25.75" Y="1.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>ABJAAAAAMAAAAQAAAIAAAAAACAIAAgEAEABIAAAEAQg=</HashCode>
+      <FileName>InvaderUpdateComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerUpdateComponent">
+    <Position X="21.75" Y="3.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABBAAAAAQAAQAAQAAAEARAAAgAABAAKCEAlAAE=</HashCode>
+      <FileName>PlayerUpdateComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RectColliderComponent">
+    <Position X="0.5" Y="3.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AIBAAAAEAAAAAAAAAAAAAAAAEABAAABAAAEAAAAAEAA=</HashCode>
+      <FileName>RectColliderComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StandardGraphicsComponent">
+    <Position X="12.75" Y="5.75" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>StandardGraphicsComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TransformComponent">
+    <Position X="7" Y="3.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAAAAMAAAAABAAAIAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>TransformComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpdateComponent">
+    <Position X="16.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>UpdateComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Button">
+    <Position X="36.25" Y="1.75" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEAAAEAAAAAgAgAAIAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Button.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectInputHandler">
+    <Position X="1" Y="14.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAIAAAAA=</HashCode>
+      <FileName>SelectInputHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectScreen">
+    <Position X="26" Y="11.25" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAACIAAAAAAAAAAAAIAAAAAAAAQAA=</HashCode>
+      <FileName>SelectScreen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectUIPanel">
+    <Position X="0.5" Y="8.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAoAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SelectUIPanel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameInputHandler">
+    <Position X="6.25" Y="14.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAEAAAAAAAAAEAAAAgAAAAAAAAA=</HashCode>
+      <FileName>GameInputHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOverInputHandler">
+    <Position X="10.75" Y="14.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAIAAAAA=</HashCode>
+      <FileName>GameOverInputHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOverUIPanel">
+    <Position X="9.5" Y="6.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAgIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameOverUIPanel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameScreen">
+    <Position X="30.75" Y="11.25" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAIAAAAAAEACMACAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>GameScreen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameUIPanel">
+    <Position X="0.5" Y="6.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameUIPanel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

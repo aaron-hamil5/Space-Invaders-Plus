@@ -207,6 +207,9 @@
     <ClInclude Include="UpdateComponent.h" />
     <ClInclude Include="WorldState.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="SpaceInvadersPlusClassDiagram.cd" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
